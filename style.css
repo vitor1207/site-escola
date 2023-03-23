@@ -2,3 +2,12 @@
 background-color:#525DBE ;
 color: lavender;
 }
+.cabecalho-imagem {
+
+    wudth: 20%;
+}
+    .cabecalho {
+    background-color:#2E2344; 
+    color: ivory;
+    display: flex;   
+}
