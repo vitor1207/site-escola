@@ -1,13 +1,20 @@
-﻿body {
-background-color:#525DBE ;
-color: lavender;
-}
-.cabecalho-imagem {
-
-    wudth: 20%;
+﻿* {
+ margin: 0;
+ padding: 0;
 }
     .cabecalho {
-    background-color:#2E2344; 
-    color: ivory;
-    display: flex;   
+    background-color:#CEC1FF; 
+    color: #2E2344;
+    display: flex; 
+    justify-content: space-around;  
+}
+.cabecalho-imagem{
+    width: 10%;
+}
+.cabecalho-lista-item{
+  display: inline-block;  
+  margin: 0 16px;
+  justify-content: space-around;
+  padding: 24px 0;
+  font-size: 30px;
 }
