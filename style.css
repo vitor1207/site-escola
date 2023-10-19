@@ -1,30 +1,48 @@
-﻿@import url("styles/header.css");
-:root {
-    --cor-de-fundo: #EBECEE;
-    --branco: #dfa4a4;
-    --laranja: #EB9B00;
-    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-    --fonte-principal: “Poppins”;
+#banner {
+	width:100%;
 }
-body {
-    background-color: var(--cor-de-fundo);
+
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
 }
-.cabecalho_menu-hamburguer {
-    width: 24px;
-    height: 24px;
-    background-image: url("./img/MenuAberto.png");
-    display: inline-block;
+
+.titulo-principal {
+	padding-left: 20px;
 }
-.lista-menu__link {
-        background: var(--azul-degrade);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-transform: uppercase;
-        }
-        body {
-            background-color: var(--cor-de-fundo);
-            font-family: var(--fonte-principal);
-            font-size: 16px;
-            font-weight: 400;
-            }
+
+.titulo-centralizado {
+	text-align: center
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.itens {
+	font-style: italic
+}
+
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembeneficios {
+	width: 50%;
+}
